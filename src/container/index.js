@@ -1,5 +1,5 @@
 import AboutUs from './AboutUs/AboutUs';
-import Chef from './Chef/Chef';
+import Chef from './Order/Order';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
