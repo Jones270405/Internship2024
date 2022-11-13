@@ -22,6 +22,7 @@ import bb from '../assets/logo_bb1.png';
 import w_logo from '../assets/wt_logo.jpeg';
 import swiggy from '../assets/swiggy.png';
 import zomato from '../assets/zomato.jpg';
+import menu1 from '../assets/menu1.jpg';
 
 export default {
   bg,
@@ -48,4 +49,5 @@ export default {
   zomato,
   bb,
   w_logo,
+  menu1,
 };

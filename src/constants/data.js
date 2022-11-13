@@ -2,32 +2,101 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Cream of chicken soup',
+    price: '130',
+    tags: '',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Chicken meatball soup',
+    price: '120',
+    tags: '',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Tandoori chicken',
+    price: '210',
+    tags: 'full/half',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Kalmi kabab',
+    price: '180',
+    tags: '',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'murgh lasooni tikka',
+    price: '230',
+    tags: '',
+  },
+  {
+    title: 'lahori murgh tikka ',
+    price: '230',
+    tags: '',
+  },
+  {
+    title: 'prawn tikka',
+    price: '290',
+    tags: '',
+  },
+  {
+    title: 'Chicken lollypop',
+    price: '210',
+    tags: '',
+  },
+
+];
+const main = [
+  {
+    title: 'Biriyani',
+    price: '230',
+    tags: 'Hyderabadi/andhra/Ambur style',
+  },
+  {
+    title: "Butter Chicken",
+    price: '230',
+    tags: '',
+  },
+  {
+    title: 'murgh mirchi masala',
+    price: '200',
+    tags: '',
+  },
+  {
+    title: 'murgh peshawar',
+    price: '210',
+    tags: '',
+  },
+  {
+    title: 'chicken kadai',
+    price: '200',
+    tags: '',
   },
 ];
-
+const dessert = [
+  {
+    title: 'Biriyani',
+    price: '230',
+    tags: 'Hyderabadi/andhra/Ambur style',
+  },
+  {
+    title: "Butter Chicken",
+    price: '230',
+    tags: '',
+  },
+  {
+    title: 'murgh mirchi masala',
+    price: '200',
+    tags: '',
+  },
+  {
+    title: 'murgh peshawar',
+    price: '210',
+    tags: '',
+  },
+  {
+    title: 'chicken kadai',
+    price: '200',
+    tags: '',
+  },
+];
 const cocktails = [
   {
     title: 'Aperol Sprtiz',
@@ -56,27 +125,6 @@ const cocktails = [
   },
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, cocktails, awards };
+
+export default { dessert,main,wines, cocktails };
