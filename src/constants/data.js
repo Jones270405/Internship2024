@@ -30,17 +30,7 @@ const wines = [
     title: 'lahori murgh tikka ',
     price: '230',
     tags: '',
-  },
-  {
-    title: 'prawn tikka',
-    price: '290',
-    tags: '',
-  },
-  {
-    title: 'Chicken lollypop',
-    price: '210',
-    tags: '',
-  },
+  }
 
 ];
 const main = [
@@ -69,58 +59,68 @@ const main = [
     price: '200',
     tags: '',
   },
+  {
+    title: 'chicken chettinad',
+    price: '210',
+    tag:'',
+  }
 ];
 const dessert = [
   {
-    title: 'Biriyani',
-    price: '230',
-    tags: 'Hyderabadi/andhra/Ambur style',
-  },
-  {
-    title: "Butter Chicken",
-    price: '230',
+    title: 'caramel pudding',
+    price: '120',
     tags: '',
   },
   {
-    title: 'murgh mirchi masala',
-    price: '200',
+    title: "fruit custard",
+    price: '110' ,
+   tags: '',
+  },
+  {
+    title: 'chocolate mousse',
+    price: '130',
     tags: '',
   },
   {
-    title: 'murgh peshawar',
-    price: '210',
-    tags: '',
+    title: 'choice of cake jars',
+    price: '110',
+    tags: 'Brownie/tiramisu/chocolate fudge',
   },
   {
-    title: 'chicken kadai',
-    price: '200',
-    tags: '',
+    title: 'gajar ka halwa+ice-cream',
+    price: '90',
+    tags: 'vanilla /strawberry ice-cream ',
   },
+  {
+    title: 'gulab jamun+ice-cream',
+    price:'80',
+    tags: 'vanilla/strawberry ice-cream'
+  }
 ];
 const cocktails = [
   {
     title: 'Aperol Sprtiz',
-    price: '$20',
+    price: '320',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
     title: "Dark 'N' Stormy",
-    price: '$16',
+    price: '250',
     tags: 'Dark rum | Ginger beer | Slice of lime',
   },
   {
     title: 'Daiquiri',
-    price: '$10',
+    price: '340',
     tags: 'Rum | Citrus juice | Sugar',
   },
   {
     title: 'Old Fashioned',
-    price: '$31',
+    price: '450',
     tags: 'Bourbon | Brown sugar | Angostura Bitters',
   },
   {
-    title: 'Negroni',
-    price: '$26',
+    title: 'valentino',
+    price: '500',
     tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
   },
 ];

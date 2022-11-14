@@ -1,21 +1,21 @@
 import AboutUs from './AboutUs/AboutUs';
-import Chef from './Order/Order';
+import Order from './Order/Order';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
-import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
+import Book from './Book/Laurels';
 
 export {
   AboutUs,
-  Chef,
+  Order,
   FindUs,
   Footer,
   Gallery,
   Header,
   Intro,
-  Laurels,
   SpecialMenu,
+  Book,
 };
