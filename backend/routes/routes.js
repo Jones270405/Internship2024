@@ -20,4 +20,14 @@ router.post('/book' , (request, response) =>{
         response.json(error)
     })
 })
+router.get('/menu',function(req,res) {
+    console.log('file downloaded');
+     
+    // Download function provided by express
+    res.download('./Files/menu.pdf', function(err) {
+        if(err) {
+            console.log(err);
+        }
+    })
+})
 module.exports = router

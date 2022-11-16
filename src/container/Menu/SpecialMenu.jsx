@@ -59,7 +59,9 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">Download Full Menu</button>
+      <form action='http://localhost:4000/app/menu' method="get">
+      <button type="submit" className="custom__button">Download Full Menu</button>
+      </form>
     </div>
   </div>
 );
