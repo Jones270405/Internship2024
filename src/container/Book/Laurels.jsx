@@ -9,9 +9,9 @@ class Book extends React.Component {
     lastname:'',
     email:'',
     phone:'',
-    numberofguests:'',
-    bookingdate:'',
-    bookingtime:''
+    numberofguests:'1',
+    bookingdate:'2022-11-21',
+    bookingtime:'none'
   } 
   this.changefirstname=this.changefirstname.bind(this)
   this.changelastname=this.changelastname.bind(this)
@@ -70,21 +70,45 @@ class Book extends React.Component {
     }
     axios.post('http://localhost:4000/app/book',booked)
     .then(response=>console.log(response.data))
+    alert("Your booking has been confirmed")
     window.location='/'
   }
   
   render() { 
-    return (<div className='container-div'>
+    return (<div className='app-container-div'>
+      <div className="app__specialMenu-title">
+      <h1 className="headtext__cormorant">Enter Your Details to book a table </h1>
+    </div>
       <div className='form-div'>
         <form onSubmit={this.onSubmit}>
-          <input type="text" placeholder="First Name" onChange={this.changefirstname} value={this.state.firstname}/><br/>
-          <input type="text" placeholder="Last Name" onChange={this.changelastname} value={this.state.lastname}/><br/>
-          <input type="email" placeholder="Email" onChange={this.changeemail} value={this.state.email}/><br/>
-          <input type="tel" placeholder="Phone Number" onChange={this.changephone} value={this.state.phone} pattern="[0-9]{10}"/><br/>
-          <input type="number" onChange={this.changenumberofguests} value={this.state.numberofguests}/><br/>
-          <input type="date" onChange={this.changedate} value={this.state.bookingdate}/><br/>
-          <input type="time" onChange={this.changetime} value={this.state.bookingtime} /><br/>
-          <input type="submit" value="submit"/>
+          <label for="fname">First Name </label>
+          <input type="text" placeholder="First Name" id="fname"onChange={this.changefirstname} value={this.state.firstname}required/><br/>
+          <label for="lname">Last Name </label>
+          <input type="text" placeholder="Last Name" id="lname "onChange={this.changelastname} value={this.state.lastname}required/><br/>
+          <label for="email">Email </label>
+          <input type="email" placeholder="Email" id="email" onChange={this.changeemail} value={this.state.email}required/><br/>
+          <label for="phone">Phone </label>
+          <input type="tel" placeholder="Phone Number" id="phone" onChange={this.changephone} value={this.state.phone} pattern="[0-9]{10}"required/><br/>
+          <label for="guests">Number of guests </label>
+          <input type="number" id="guests"onChange={this.changenumberofguests} value={this.state.numberofguests} min='1' max='20'/><br/>
+          <label for="date">Date </label>
+          <input type="date" id="date" onChange={this.changedate} value={this.state.bookingdate} min="2022-11-21" max="2022-12-20" required/><br/>
+          <label for="time">Time </label>
+          <select name="time" id="time" onChange={this.changetime} value={this.state.bookingtime} required >
+            <option value="none" selected disabled hidden>Select time</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="18:00">18:00</option>
+            <option value="19:00">19:00</option>
+            <option value="20:00">20:00</option>
+            <option value="21:00">21:00</option>
+          </select>
+          <br/>
+          <div className='book_custom__button'>
+          <input type="submit"  value="Confirm your booking!"/>
+          </div>
         </form>
       </div>
 

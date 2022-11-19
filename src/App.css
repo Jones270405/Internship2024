@@ -7,7 +7,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.app{
+  background: var(--color-black);
+}
 .app__bg {
   background: url('./assets/bg.png');
   background-position: center;

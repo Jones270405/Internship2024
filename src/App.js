@@ -15,18 +15,7 @@ const App = () => (
       <Route exact path='/gallery' element={<Gallery/>}/>
       <Route exact path='/contact' element={<FindUs/>}/>
       <Route exact path='/book' element={<Book/>}/>
-      {/* <Route exact path='/about'>
-        <AboutUs />
-      </Route>
-      <Route exact path='/menu'>
-        <SpecialMenu />
-      </Route>
-      <Route exact path='/gallery'>
-        <Gallery />
-      </Route>
-      <Route exact path='/gallery'>
-        <FindUs />
-        </Route> */}
+      
     </Routes>
     <Order /> 
     <Footer />
