@@ -19,11 +19,11 @@ router.post('/book' , (request, response) =>{
     .catch(error=>{
         response.json(error)
     })
+    console.log("Successfully added to database")
 })
 router.get('/menu',function(req,res) {
     console.log('file downloaded');
      
-    // Download function provided by express
     res.download('./Files/menu.pdf', function(err) {
         if(err) {
             console.log(err);

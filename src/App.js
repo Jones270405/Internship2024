@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AboutUs, Order, FindUs, Footer, Gallery, Header, Intro, SpecialMenu,Book } from './container';
+import { AboutUs, Order, FindUs, Footer, Gallery, Header, SpecialMenu,Book } from './container';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components';
 import './App.css';
@@ -15,7 +15,6 @@ const App = () => (
       <Route exact path='/gallery' element={<Gallery/>}/>
       <Route exact path='/contact' element={<FindUs/>}/>
       <Route exact path='/book' element={<Book/>}/>
-      
     </Routes>
     <Order /> 
     <Footer />

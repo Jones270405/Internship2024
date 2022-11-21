@@ -4,7 +4,7 @@ const mongoose=require("mongoose")
 const routesUrls=require("./routes/routes")
 const cors=require("cors")
 
-mongoose.connect("mongodb+srv://melv:melv@cluster0.lpid2na.mongodb.net/?retryWrites=true&w=majority",()=>console.log("Database connected"))
+mongoose.connect("{add mongodb connection link here}",()=>console.log("Database connected"))
 
 app.use(express.json())
 app.use(cors())

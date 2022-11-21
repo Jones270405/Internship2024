@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FiFacebook, FiTwitter, FiInstagram ,FiGithub, FiLinkedin, FiMail} from 'react-icons/fi';
 
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
@@ -23,9 +23,10 @@ const Footer = () => (
         <p className="p__opensans">&quot;The best way to have a time like never before.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href="https://github.com/melvinjjoseph"><FiGithub/></a>
+          <a href="https://www.linkedin.com/in/melvin-joseph-160594234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdQh5POxRQOqzO549b8gmJQ%3D%3D"><FiLinkedin/></a>
+          <a href='melvinjjoseph2002@gmail.com'><FiMail/></a>
+          <a href='https://www.instagram.com/melvin_2416/?hl=en'><FiInstagram /></a>
         </div>
       </div>
 
