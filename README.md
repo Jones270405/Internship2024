@@ -1,7 +1,7 @@
 # Buzzy Bytes Restuarant 
 ### 🍽️ Check out the frontend of the buzzy bytes restaurant [here](https://buzzy-bytes-restaurant.vercel.app/)
 ## Steps to get it running on your machine
-1. Open the terminal/command prompt and run the following command ```git clone https://github.com/melvinjjoseph/restaurant ```
+1. Open the terminal/command prompt and run the following command ```git clone https://github.com/melvinjjoseph/restaurant.git ``` or  ```git clone git@github.com:melvinjjoseph/restaurant.git```
 2. Change directory to the restaurant ```cd restaurant```
 3. Install the required dependencies using ```npm i```
 4. Change directory to backend ```cd backend ```
