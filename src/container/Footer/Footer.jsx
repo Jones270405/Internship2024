@@ -24,8 +24,8 @@ const Footer = () => (
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <a href="https://github.com/melvinjjoseph"><FiGithub/></a>
-          <a href="https://www.linkedin.com/in/melvin-joseph-160594234?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BdQh5POxRQOqzO549b8gmJQ%3D%3D"><FiLinkedin/></a>
-          <a href='melvinjjoseph2002@gmail.com'><FiMail/></a>
+          <a href="https://www.linkedin.com/in/melvin-j-joseph/"><FiLinkedin/></a>
+          <a href='mailto:melvinjjoseph2002@gmail.com'><FiMail/></a>
           <a href='https://www.instagram.com/melvin_2416/?hl=en'><FiInstagram /></a>
         </div>
       </div>
